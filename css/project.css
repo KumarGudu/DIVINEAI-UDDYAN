@@ -1,0 +1,86 @@
+.garden_image{
+	height: 40%;
+	width: 100%;
+	background-image: url('../images/a.jpg');
+	color: white;
+	padding-top: 10%;
+}
+.garden_image h1{
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 0px;
+}
+.project_text{
+	padding-top: 40px;
+}
+.project_text1{
+	padding-top: 70px;
+
+}
+.project_text2{
+	padding-top: 70px;
+
+}
+.project_text3{
+	padding-top: 70px;
+}
+.project_text4{
+	padding-top: 70px;
+}
+.project_text5{
+	padding-top: 70px;
+}
+.project_text6{
+	padding-top: 70px;
+}
+.project_text7{
+	padding-top: 70px;
+}
+.project_text8{
+	padding-top: 70px;
+}
+.project_text9{
+	padding-top: 70px;
+}
+.project_text10{
+	padding-top: 70px;
+}
+.project_text11{
+	padding-top: 70px;
+}
+.project_text12{
+	padding-top: 70px;
+}
+.farm{
+	margin-top: 40px;
+	background-image: url('../images/a.jpg');
+	height: 150px;
+	color: white;
+	width: 100%;
+}
+.project_text10{
+	padding-top: 70px;
+}
+.farm1{
+	margin-top: 40px;
+	background-image: url('../images/a.jpg');
+	height: 150px;
+	color: white;
+	width: 100%;
+
+}
+
+
+@media screen and (max-width: 850px)
+{
+	.garden_image{
+		height: 30%;
+	}
+	.farm{
+		width: 100%;
+	}
+	.farm1{
+		width: 100%;
+	}
+}
+
