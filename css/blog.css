@@ -1,0 +1,71 @@
+.first_image {
+    width: 100%;
+    height: 300px;
+}
+
+.text_blog {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.three_card .card {
+    box-shadow: 1px 1px 5px 1px #C0C0C0;
+}
+
+.three_card .card:hover {
+    box-shadow: 5px 5px 10px 10px #C0C0C0;
+    border: 2px solid #00FF00;
+}
+
+.three_card a {
+    color: #00FF00;
+}
+
+a:hover {
+    color: red;
+}
+
+@media screen and (max-width: 320px){
+    .first_image {
+        width: 365px;
+        height: 200px;
+    }
+    .text_blog {
+        margin-left: -150px;
+    }
+    
+
+}
+@media screen and (min-width: 360px) and (max-width: 500px) {
+    .first_image {
+        height: 220px;
+    }
+    .text_blog {
+        margin-left: -150px;
+    }
+}    
+@media screen and (min-width: 200px) and (max-width: 900px) {
+    .first_image {
+        height: 220px;
+    }
+    .second_card {
+        margin-top: 30px;
+    }
+    .third_card {
+        margin-top: 30px;
+    }
+    .first_card {
+        width: 100%;
+    }
+    .second_card {
+        width: 100%;
+    }
+    .third_card {
+        width: 100%;
+    }
+} 
