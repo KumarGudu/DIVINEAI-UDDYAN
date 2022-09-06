@@ -1,0 +1,87 @@
+.head_img{
+    height: 230px;
+}
+.center-head{
+    margin-top: 40px;
+}
+.abt-trn{
+    color: burlywood;
+    font-weight: 700;
+    
+}
+.head-cont{
+    margin-top: 20px;
+}
+.p-text{
+    columns: #2D2D37;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+.icons{
+    display:flex;
+    justify-content: space-around;
+    margin-left: -5px;
+}
+.icon-socia{
+    font-size: 20px;
+}
+.training{
+    font-weight: 800;
+    padding-top: 70px;
+}
+.abt-me{
+    padding-top: 20px;
+    font-weight: 700;
+}
+.profile-img{
+    height: 340px;
+}
+.exp{
+    padding-top: 110px;
+}
+.abilities{
+    padding-top: 30px;
+}
+.card-box{
+    margin-top: 50px;
+}
+.imgchk{
+    font-size: 30px;
+}
+.box-bdy{
+    background-color: burlywood;
+}
+.img-wp{
+    height: 900px;
+}
+.abt-tng {
+    font-weight: 700;
+    padding-top: 50px;
+}
+.mid-img{
+    height: 500px;   
+}
+.mid-cont{
+    padding-top: 80px;
+}
+.flow-ic{
+    font-size: 20px;
+}
+.fourthgrid{
+    padding-top: 60px;
+}
+.apki{
+    margin-top: 60px;
+}
+.img-size{
+    height: 400px;
+}
+.l-img{
+    height: 20px;
+}
+@media screen and (min-width:300px) and (max-width:500px){
+    .profile-img{
+        width:300px ;
+    }
+}
