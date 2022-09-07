@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212121;
+  color: #36ca11;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
@@ -290,7 +290,7 @@ a:focus {
   font-size: 36px;
   line-height: 46px;
   margin: 0 0 60px;
-  color: #212121;
+  color: #36ca11;
 }
 
 @media (max-width: 575px) {
@@ -1911,7 +1911,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .shuffle-btn-group label {
   display: inline-block;
-  color: #212121;
+  color: #36ca11;
   font-size: 14px;
   padding: 6px 25px;
   padding-top: 10px;
@@ -1923,7 +1923,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .shuffle-btn-group label.active {
-  color: #212121;
+  color: #36ca11;
   background: #36ca11;
 }
 
@@ -2890,7 +2890,7 @@ img.testimonial-thumb {
 .ts-team-content-classic .ts-name {
   font-size: 16px;
   margin-bottom: 5px;
-  color: #212121;
+  color: #36ca11;
 }
 
 .ts-team-content-classic .ts-designation {
