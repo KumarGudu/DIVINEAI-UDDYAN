@@ -1,27 +1,43 @@
-.uddyan_first_icon{
+.uddyan_first_icon {
     object-fit: scale-down;
-    height: 150px;  
+    height: 150px;
 }
-.uddyan_first_card{
+
+.uddyan_first_card {
     border: none;
 }
-.project_img{
+
+.project_img {
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
-.uddyan_first_card h5{
+
+.uddyan_first_card h5 {
     color: #36ca11;
     text-align: center;
     font-size: 20px;
 }
-.uddyan_first_card p{
+
+.uddyan_first_card p {
     text-align: center;
     font-weight: 600;
 }
-.page-slider{
-    top: 30%;
+
+.page-slider {
+    top: 10%;
 }
-.uddyan_first_svg{
+
+.uddyan_first_svg {
     height: 100px;
+}
+
+.main-container_features {
+    padding-top: 120px;
+}
+.main-container_features h3{
+    text-align: center;
+}
+.shuffle-wrapper img{
+    height: 300px;
 }
