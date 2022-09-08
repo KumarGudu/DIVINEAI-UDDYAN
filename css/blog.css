@@ -5,7 +5,7 @@
 
 .text_blog {
     position: absolute;
-    top: 120px;
+    /* top: 120px; */
     left: 200px;
     color: white;
     font-size: 50px;
