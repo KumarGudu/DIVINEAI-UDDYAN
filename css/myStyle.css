@@ -41,3 +41,6 @@
 .shuffle-wrapper img{
     height: 300px;
 }
+.post-item-date span{
+    font-weight: bold;
+}
