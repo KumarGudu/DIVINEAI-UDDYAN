@@ -6,8 +6,7 @@
 }
 .abt-trn{
     color: burlywood;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 .head-cont{
     margin-top: 20px;
@@ -44,23 +43,40 @@
     padding-top: 30px;
 }
 .card-box{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .imgchk{
     font-size: 30px;
 }
 .box-bdy{
-    background-color: burlywood;
+    background-color: #F9FCC6C4;
 }
 .img-wp{
     height: 900px;
 }
 .abt-tng {
-    font-weight: 700;
-    padding-top: 50px;
+    font-weight: 500;
+    padding-top: 20px;
+    color: white;
+}
+.hydroponics{
+    color:white;
+    font-size: 15px;
+
+}
+.hydroponics-two{
+    color:white;
+    font-size: 18px;
+
+}
+.end-card{
+    background-color: #F9F9F9
+}
+.grid-mid{
+    padding-top: 30px;
 }
 .mid-img{
-    height: 500px;   
+    height: 400px;   
 }
 .mid-cont{
     padding-top: 80px;
@@ -72,7 +88,7 @@
     padding-top: 60px;
 }
 .apki{
-    margin-top: 60px;
+    margin-top: 90px;
 }
 .img-size{
     height: 400px;
@@ -80,8 +96,48 @@
 .l-img{
     height: 20px;
 }
+.img-crd{
+    background-image: url(/images/wp3784701.jpg);
+}
+.client{
+    padding-top: 40px;
+}
+.three-card{
+    background-color: #56D86CA3;
+}
+.three-card-end-text{
+    color: #54595F;
+    
+}
+.ic-logo{
+   color:purple;
+    
+    
+}
 @media screen and (min-width:300px) and (max-width:500px){
     .profile-img{
         width:300px ;
+    }
+    .img-crd{
+        display: none;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:700px){
+    .profile-img{
+        width:300px;
+    }
+    .img-crd{
+        display: none;
+    }
+}
+
+@media screen and (min-width:710px) and (max-width:900px){
+    .fourthgrid {
+        margin-top:;
+        font-size: 10px;
+    }
+    .below{
+        margin-top: -20px;
     }
 }
