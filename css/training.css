@@ -1,21 +1,37 @@
 .head_img{
     height: 230px;
 }
+.img-bg{
+  background: rgba(24, 23, 23, 0);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+  background-blend-mode: darken;
+}
 .center-head{
     margin-top: 40px;
 }
 .abt-trn{
-    color: burlywood;
+    color:black;
     font-weight: 700;  
 }
+
 .head-cont{
     margin-top: 20px;
+}
+.mp{
+    color: black;
 }
 .p-text{
     columns: #2D2D37;
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
+}
+.cursoul-img{
+    object-fit: contain;
 }
 .icons{
     display:flex;
@@ -25,9 +41,12 @@
 .icon-socia{
     font-size: 20px;
 }
+.pnf{
+    color: black;
+}
 .training{
     font-weight: 800;
-    padding-top: 70px;
+    padding-top: 180px;
     color: white;
 }
 .abt-me{
@@ -35,7 +54,7 @@
     font-weight: 700;
 }
 .profile-img{
-    height: 340px;
+    height: 390px;
 }
 .exp{
     padding-top: 110px;
@@ -58,21 +77,25 @@
 .abt-tng {
     font-weight: 500;
     padding-top: 20px;
-    color: white;
+    color:white;
 }
 .hydroponics{
     color:white;
     font-size: 15px;
-
+}
+.card-curs{
+    height: 500px;
+    object-fit: contain;
 }
 .hydroponics-two{
     color:white;
-    font-size: 18px;
-
+    font-size: 18px;   
 }
+
 .end-card{
     background-color: #F9F9F9
 }
+
 .grid-mid{
     padding-top: 30px;
 }
@@ -98,7 +121,13 @@
     height: 20px;
 }
 .img-crd{
-    background-image: url(/images/wp3784701.jpg);
+    background: rgba(2, 2, 2, 0.719) url("../images/our-beautiful-big-farm.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-blend-mode: darken;
 }
 .client{
     padding-top: 40px;
@@ -110,29 +139,21 @@
     color: #54595F;
     
 }
-.ic-logo{
-   color:purple;
-    
-    
+.img-photo{
+    height: 25px;  
 }
+
 @media screen and (min-width:300px) and (max-width:500px){
     .profile-img{
         width:300px ;
     }
-    .img-crd{
-        display: none;
-    }
+    
 }
-
 @media screen and (min-width:500px) and (max-width:700px){
     .profile-img{
         width:300px;
     }
-    .img-crd{
-        display: none;
-    }
 }
-
 @media screen and (min-width:710px) and (max-width:900px){
     .fourthgrid {
         
