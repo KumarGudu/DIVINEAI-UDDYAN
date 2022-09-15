@@ -15,43 +15,31 @@
 a:hover {
     color: red;
 }
+.first_first_card {
+    width: 20rem;
+    height: 30rem;
+}
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px){
     .first_image {
         width: 365px;
         height: 200px;
     }
-    .text_blog {
-        margin-left: -150px;
+    .first_first_card {
+        width: 18rem;
     }
-    
-
 }
-@media screen and (min-width: 360px) and (max-width: 500px) {
+@media (min-width: 360px){
     .first_image {
         height: 220px;
     }
-    .text_blog {
-        margin-left: -150px;
+    .first_first_card {
+        width: 21rem;
     }
-}    
-@media screen and (min-width: 200px) and (max-width: 900px) {
-    .first_image {
-        height: 220px;
+ 
+}  
+@media screen and (min-width: 390px) and (max-width: 480px) {
+    first_first_card {
+        width: 30rem;
     }
-    .second_card {
-        margin-top: 30px;
-    }
-    .third_card {
-        margin-top: 30px;
-    }
-    .first_card {
-        width: 100%;
-    }
-    .second_card {
-        width: 100%;
-    }
-    .third_card {
-        width: 100%;
-    }
-} 
+}

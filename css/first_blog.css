@@ -1,7 +1,14 @@
 .big_image {
-    height: 300px;
-    width: 100%;
-    
+    background: rgba(0, 0, 0, 0.548) url("../images/happy-farmer.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    background-blend-mode: darken;
+}
+.banner-area h1 {
+    font-size: 36px;
 }
 .youtube_video {
     height: 400px;
@@ -15,4 +22,11 @@
     height: 300px;
     width: 300px;
     float: right;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .banner-area h1 {
+        font-size: 20px;
+
+    }
 }
