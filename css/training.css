@@ -2,13 +2,13 @@
     height: 230px;
 }
 .img-bg{
-  background: rgba(24, 23, 23, 0);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: #fff;
-  background-blend-mode: darken;
+    background: rgba(0, 0, 0, 0.548) url("../images/a.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    background-blend-mode: darken;
 }
 .center-head{
     margin-top: 40px;
@@ -31,7 +31,8 @@
     font-style: normal;
 }
 .cursoul-img{
-    object-fit: contain;
+    object-fit:scale-down;
+    height: 400px;
 }
 .icons{
     display:flex;
@@ -85,7 +86,7 @@
 }
 .card-curs{
     height: 500px;
-    object-fit: contain;
+    object-fit:cover;
 }
 .hydroponics-two{
     color:white;
@@ -140,14 +141,32 @@
     
 }
 .img-photo{
-    height: 25px;  
+    font-size: 20px; 
+    height: 20px;
+    width: 20px;
 }
-
-@media screen and (min-width:300px) and (max-width:500px){
-    .profile-img{
-        width:300px ;
-    }
+.logo-pic{
     
+    height: 20px;
+    width: 20px;
+}
+.btn-side{
+    color: black;
+}
+@media screen and (min-width:300px) and (max-width:320px){
+    .profile-img{
+        width:290px ;
+    } 
+}
+@media screen and (min-width:360px) and (max-width:390px){
+    .profile-img{
+        width: 336px ;
+    } 
+}
+@media screen and (min-width:400px) and (max-width:490px){
+    .profile-img{
+        width: 385px ;
+    } 
 }
 @media screen and (min-width:500px) and (max-width:700px){
     .profile-img{
@@ -161,5 +180,11 @@
     }
     .below{
         margin-top: -20px;
+    }
+    .mid-img{
+        height: 500px;
+    }
+    .profile-img{
+        height: 500px;
     }
 }
