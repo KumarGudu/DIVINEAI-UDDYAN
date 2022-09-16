@@ -189,11 +189,11 @@ a:focus {
 }
 
 .dark-bg {
-  background: rgba(0, 0, 0, 0.548) url("../images/banner/banner2.jpg");
+  background: rgba(0, 0, 0, 0.548) url("../images/banner/count-numbers.avif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   color: #fff;
   background-blend-mode: darken;
 }
@@ -1294,6 +1294,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   .slide-title {
     font-size: 16px;
   }
+  .page-slider.small-bg .box-slider-text {
+    margin-bottom: 6rem;
+    margin-right: 10rem;
+  }
 }
 
 .slide-sub-title {
@@ -1925,6 +1929,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   transition: all 0.3s;
   cursor: pointer;
   margin: 0;
+  width: 150px;
 }
 
 .shuffle-btn-group label.active {
@@ -2735,6 +2740,7 @@ img.testimonial-thumb {
   font-size: 28px;
   color: #fff;
   font-weight: 900;
+  text-align: center;
 }
 
 /*-- Get a quote page --*/

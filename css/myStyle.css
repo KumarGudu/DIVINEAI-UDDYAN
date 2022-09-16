@@ -44,3 +44,4 @@
 .post-item-date span{
     font-weight: bold;
 }
+@media screen and (min-width: 200px) and (max-width: 712){

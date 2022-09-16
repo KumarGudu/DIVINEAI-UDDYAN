@@ -1,4 +1,12 @@
-
+.uppeer-image {
+    background: rgba(0, 0, 0, 0.548) url("../images/plant1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    background-blend-mode: darken;
+}
 .three_card .card {
     box-shadow: 1px 1px 5px 1px #C0C0C0;
 }
@@ -20,26 +28,41 @@ a:hover {
     height: 30rem;
 }
 
-@media (min-width: 320px){
-    .first_image {
-        width: 365px;
-        height: 200px;
-    }
+@media (max-width: 320px){
     .first_first_card {
         width: 18rem;
     }
-}
-@media (min-width: 360px){
-    .first_image {
-        height: 220px;
-    }
+} 
+@media (max-width: 240px){
     .first_first_card {
-        width: 21rem;
+        width: 13rem;
     }
- 
-}  
-@media screen and (min-width: 390px) and (max-width: 480px) {
-    first_first_card {
-        width: 30rem;
+    .third_card {
+        height: 590px;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 400px){
+    .first_first_card {
+        width: 22.5rem;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 376px){
+    .first_first_card {
+        width: 21.5rem;
+    }
+}
+@media screen and (min-width: 411px) and (max-width: 415px){
+    .first_first_card {
+        width: 24rem;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 713px){
+    .first_first_card {
+        width: 15rem;
+    }
+}
+@media screen and (min-width: 416px) and (max-width: 481px){
+    .first_first_card {
+        width: 28rem;
     }
 }
