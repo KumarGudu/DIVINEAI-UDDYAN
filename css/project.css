@@ -19,55 +19,88 @@
 .project_text {
 	padding-top: 40px;
 }
-
+.project_text button {
+	background-color: black;
+}
 .project_text1 {
 	padding-top: 70px;
 
+}
+.project_text1 button {
+	background-color: black;
 }
 
 .project_text2 {
 	padding-top: 70px;
 
 }
+.project_text2 button {
+	background-color: black;
+}
 
 .project_text3 {
 	padding-top: 70px;
 }
-
+.project_text3 button {
+	background-color: black;
+}
 .project_text4 {
 	padding-top: 70px;
+}
+.project_text4 button {
+	background-color: black;
 }
 
 .project_text5 {
 	padding-top: 70px;
 }
-
+.project_text5 button {
+	background-color: black;
+}
 .project_text6 {
 	padding-top: 70px;
 }
-
+.project_text6 button {
+	background-color: black;
+}
 .project_text7 {
 	padding-top: 70px;
 }
-
+.project_text7 button {
+	background-color: black;
+}
 .project_text8 {
 	padding-top: 70px;
+}
+.project_text8 button {
+	background-color: black;
 }
 
 .project_text9 {
 	padding-top: 70px;
 }
+.project_text9 button {
+	background-color: black;
+}
 
 .project_text10 {
 	padding-top: 70px;
 }
-
+.project_text10 button {
+	background-color: black;
+}
 .project_text11 {
 	padding-top: 70px;
+}
+.project_text11 button {
+	background-color: black;
 }
 
 .project_text12 {
 	padding-top: 70px;
+}
+.project_text12 button {
+	background-color: black;
 }
 
 .farm {
@@ -78,6 +111,9 @@
 
 .project_text10 {
 	padding-top: 70px;
+}
+.project_text10 button {
+	background-color: black;
 }
 
 
