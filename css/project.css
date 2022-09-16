@@ -1,86 +1,99 @@
-.garden_image{
-	height: 40%;
-	width: 100%;
-	background-image: url('../images/a.jpg');
-	color: white;
-	padding-top: 10%;
+
+
+.big_image {
+	background: rgba(0, 0, 0, 0.548) url("../images/garden1.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: #fff;
+	background-blend-mode: darken;
 }
-.garden_image h1{
+
+.garden_image h1 {
 	text-align: left;
 	padding-left: 15px;
 	padding-top: 0px;
 }
-.project_text{
+
+.project_text {
 	padding-top: 40px;
 }
-.project_text1{
+
+.project_text1 {
 	padding-top: 70px;
 
 }
-.project_text2{
+
+.project_text2 {
 	padding-top: 70px;
 
 }
-.project_text3{
+
+.project_text3 {
 	padding-top: 70px;
 }
-.project_text4{
+
+.project_text4 {
 	padding-top: 70px;
 }
-.project_text5{
+
+.project_text5 {
 	padding-top: 70px;
 }
-.project_text6{
+
+.project_text6 {
 	padding-top: 70px;
 }
-.project_text7{
+
+.project_text7 {
 	padding-top: 70px;
 }
-.project_text8{
+
+.project_text8 {
 	padding-top: 70px;
 }
-.project_text9{
+
+.project_text9 {
 	padding-top: 70px;
 }
-.project_text10{
+
+.project_text10 {
 	padding-top: 70px;
 }
-.project_text11{
+
+.project_text11 {
 	padding-top: 70px;
 }
-.project_text12{
+
+.project_text12 {
 	padding-top: 70px;
 }
-.farm{
-	margin-top: 40px;
-	background-image: url('../images/a.jpg');
-	height: 150px;
-	color: white;
-	width: 100%;
-}
-.project_text10{
-	padding-top: 70px;
-}
-.farm1{
-	margin-top: 40px;
-	background-image: url('../images/a.jpg');
-	height: 150px;
-	color: white;
-	width: 100%;
+
+.farm {
+	padding: 50px;
+	background-color: black;
 
 }
 
+.project_text10 {
+	padding-top: 70px;
+}
 
-@media screen and (max-width: 850px)
-{
-	.garden_image{
+
+
+@media screen and (max-width: 850px) {
+	.garden_image {
 		height: 30%;
 	}
-	.farm{
+
+	.farm {
 		width: 100%;
+		height: 30%;
 	}
-	.farm1{
+
+	.farm1 {
 		width: 100%;
+		height: 30%;
 	}
 }
-
