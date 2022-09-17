@@ -2626,6 +2626,15 @@ img.testimonial-thumb {
   background-size: cover;
 }
 
+.banner-image {
+  background: rgba(0, 0, 0, 0.548) url("../images/contact-farmer.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 .banner-title {
   color: #fff;
   text-transform: uppercase;
@@ -2983,10 +2992,6 @@ img.testimonial-thumb {
 
 /* Contact Us
 ================================================== */
-.map {
-  height: 450px;
-  z-index: 1;
-}
 
 .contact-info-box {
   margin-top: 20px;
