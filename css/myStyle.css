@@ -30,6 +30,7 @@
 
 .uddyan_first_svg {
     height: 100px;
+    object-fit: contain;
 }
 
 .main-container_features {
@@ -45,3 +46,4 @@
     font-weight: bold;
 }
 @media screen and (min-width: 200px) and (max-width: 712){
+}
