@@ -1,0 +1,20 @@
+.product_card img{
+    height: 200px;
+    object-fit:fill;
+}
+.second_product_card img{
+    object-fit:cover;
+}
+.card-text-location{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+.card-area{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: none;
+}
